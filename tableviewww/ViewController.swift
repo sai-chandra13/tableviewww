@@ -22,7 +22,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         return 10
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "idnum")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "id")
         cell?.textLabel?.text = "idnum \(indexPath.row)"
         return cell!
     }
